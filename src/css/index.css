@@ -1,0 +1,6 @@
+@import 'reset.css';
+@import 'xlarge.css' all;
+@import 'large.css' all and (max-width: 1199px);
+@import 'medium.css' all and (max-width: 991px);
+@import 'small.css' all and (max-width: 768px);
+@import 'xsmall.css' all and (max-width: 575px);

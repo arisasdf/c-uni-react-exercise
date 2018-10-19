@@ -1,0 +1,19 @@
+/* Small Devices*/
+.logo {
+  display: block;
+  font-size: 1em;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 55px;
+  position: absolute;
+  line-height: 0.7em;
+}
+header {
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+}
+nav {
+  display: block;
+}

@@ -1,21 +1,24 @@
 /* Medium Devices */
 
-  .logo {
-    display: block;
-    font-size: 1em;
-    text-align: left;
-    margin-left: 1em;
-    margin-top: 55px;
-    position: absolute;
-    line-height: 0.7em;
-  }
-  nav {
-    font-size: 0.9em;
-  }
-  nav > ul > li {
-    margin-top: 50px;
-  }
-  header {
-    height: 85px;
-    margin-top: 0px;
-  }
+.logo {
+  display: block;
+  font-size: 1em;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 55px;
+  position: absolute;
+  line-height: 0.7em;
+}
+nav > ul > li {
+  font-size: 0.8em;
+}
+nav > ul > li {
+  margin-top: 50px;
+}
+header {
+  height: 85px;
+  margin-top: 0px;
+}
+header > img {
+  display: none;
+}

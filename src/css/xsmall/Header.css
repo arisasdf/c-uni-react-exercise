@@ -1,23 +1,46 @@
 @charset "UTF-8";
 /* extra Small Devices*/
 
- .logo {
-    display: block;
-    font-size: 1em;
-    text-align: left;
-    margin-left: 1em;
-    margin-top: 55px;
-    position: absolute;
-    line-height: 0.7em;
-  }
-  header {
-    height: 90px;
-    position: fixed;
-    width: 100%;
-    margin-top: 0px;
-  }
+.logo {
+  display: block;
+  font-size: 1em;
+  margin-left: 38%;
+  margin-top: 05px;
+  position: absolute;
+  line-height: 0.7em;
+}
+header {
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+}
 
-  nav {
-    display: block;
-  }
+nav > ul {
+  display: block;
+  font-size: 0.85em;
+}
+.videos {
+  display: none;
+}
+.resources {
+  display: none;
+}
 
+.ext_links {
+  display: none;
+}
+/* mobile menu items*/
+.mobile {
+  display: inline;
+}
+
+.mobile > ul > li {
+  display: none;
+}
+.about {
+  display: none;
+}
+nav > ul > li:hover > ul > li {
+  display: none;
+}

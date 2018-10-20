@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../img/Menuicon.svg";
 
 class Header extends Component {
   render() {
@@ -10,33 +9,27 @@ class Header extends Component {
             E &amp; L <i>tutorials</i>
           </span>
           <ul>
+            <li>HOME</li>
             <li>
-              <a href="">HOME</a>
-            </li>
-            <li>
-              <a href="">ABOUT US</a>
-              <ul>
+              ABOUT US
+              <ul className="about">
                 <li>About E&amp;L</li>
-                <li>
-                  <a>Profile 1</a>
-                </li>
-                <li>
-                  <a>Profile 2</a>
-                </li>
+                <li>Profile 1</li>
+                <li>Profile 2</li>
               </ul>
             </li>
-            <li>
-              <a href="">VIDEO TUTORIALS</a>
+            <li class="videos">VIDEO TUTORIALS</li>
+            <li class="resources">LEARNING RESOURCES</li>
+            <li class="ext_links">EXTERNAL LINKS</li>
+            <li class="mobile">
+              MORE
+              <ul class="more">
+                <li>Video Tutorials</li>
+                <li>Learning Resources</li>
+                <li>External Links</li>
+              </ul>
             </li>
-            <li>
-              <a href="">LEARNING RESOURCES</a>
-            </li>
-            <li>
-              <a href="">EXTERNAL LINKS</a>
-            </li>
-            <li>
-              <a href="">BLOG</a>
-            </li>
+            <li>BLOG</li>
           </ul>
         </nav>
       </header>

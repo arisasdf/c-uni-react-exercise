@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Forum|Roboto:300,400');
 @import 'reset.css';
+@import 'general.css';
 @import 'xlarge.css' all;
 @import 'large.css' all and (max-width: 1199px);
 @import 'medium.css' all and (max-width: 991px);

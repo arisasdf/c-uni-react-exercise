@@ -1,4 +1,33 @@
-footer {
-	background-color: orange;
-	height: 100px;
+.global-footer {
+	background-color: #0A3170;
+	color: #FFF;
+}
+
+.global-footer__block {
+	width: 14em;
+	display: inline-block;
+	padding: 2em 0;
+	vertical-align: top;
+}
+.global-footer__block:first-child {
+	margin-left: 15%;
+}
+
+.global-footer__block h4 {
+	font-size: 1.2em;
+	padding-bottom: 1em;
+}
+.global-footer__block li {
+	line-height: 1.8em;
+	font-size: .8em;
+}
+.global-footer__block a:hover {
+	color: #00c0c0;
+}
+
+.global-footer__copyright {
+	padding: .7em 15%;
+	background-color: #001942;
+	font-style: italic;
+	font-size: .8em;
 }

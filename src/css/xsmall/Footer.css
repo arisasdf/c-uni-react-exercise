@@ -1,3 +1,8 @@
-footer {
-	background-color: blue;
+.global-footer__block {
+	display: block;
+	padding: 2em 0 2em 15%;
+}
+.global-footer__block:first-child {
+	margin: 0;
+	padding-bottom: 0;
 }

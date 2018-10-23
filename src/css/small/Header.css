@@ -19,8 +19,6 @@ nav > ul {
 nav > ul > li {
   font-size: 0.8em;
 }
-header > img {
-  display: block;
-  position: absolute;
-  margin-left: 95%;
+nav > img {
+  display: none;
 }

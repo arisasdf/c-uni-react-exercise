@@ -15,40 +15,47 @@ ul {
 header {
   background-color: #0a3170;
   margin: 0;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 
 nav {
   text-align: center;
 }
+nav > button {
+  display: none;
+}
 
 /* Drop-down menu */
-nav > ul > li {
+nav > div > ul > li {
   display: inline-block;
   padding: 10px;
   position: relative;
   color: #eee;
 }
-nav > ul > li > a {
+nav > div > ul > li > a {
   text-decoration: none;
+  color: #eee;
 }
-nav > ul > li > ul {
+nav > div > ul > li > ul {
   display: none;
   padding: 0;
 }
-nav > ul > li > ul > li > a {
+nav > div > ul > li > ul > li > a {
   color: gray;
   text-decoration: none;
 }
 
-nav > ul > li > ul > a:hover {
+nav > div > ul > li > ul > a:hover {
   color: gray;
 }
-nav > ul > li:hover > ul {
+nav > div > ul > li:hover > ul {
   display: block;
   position: absolute;
   list-style: none;
+}
+#menu_Items {
+  display: block;
 }
 .logo {
   display: block;
@@ -58,14 +65,85 @@ nav > ul > li:hover > ul {
   margin-top: 55px;
   position: absolute;
   line-height: 0.7em;
+  color: beige;
 }
 header {
   height: 85px;
   margin-top: 0px;
 }
-nav > ul > li {
+nav > div > ul > li {
   margin-top: 50px;
 }
 header > img {
   display: none;
+}
+/*About Us Page elements*/
+.Profiles {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  min-height: 300px;
+  padding: 20px;
+  border: 1px dotted grey;
+}
+.Profiles > div {
+  border: 1px dotted grey;
+  flex-direction: row;
+}
+.Profiles {
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  margin: 0 -15px;
+  padding: 20px;
+}
+.Profiles > div {
+  margin: 0 15px;
+  width: 400px;
+  padding-top: 20px;
+  border: 1px dotted grey;
+}
+.ContactForm {
+  height: 300px;
+}
+h1 {
+  text-align: center;
+}
+
+/*Profile2 Page elements*/
+.Profile_page2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px dotted grey;
+  min-height: 500px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Profile_page2 > div {
+  border: 1px dotted grey;
+  padding: 20px;
+}
+.Profile_page2_left {
+  background-color: #0a3170;
+  color: #eee;
+  max-width: 210px;
+  line-height: 2em;
+}
+.Profile_page2_left > img {
+  border-radius: 50%;
+}
+.Profile_page2_left > i {
+  margin-left: 65px;
+}
+span > hr {
+  border-top: dashed 1px;
+}
+.Profile_page2_right > aside {
+  line-height: 2em;
+  color: gray;
+}
+.Profile_page2_right > aside > p {
+  color: #0a3170;
 }

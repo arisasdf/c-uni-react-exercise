@@ -68,10 +68,10 @@ class Profile2 extends Component {
                 <hr />
               </span>
               <ul>
-                <li>--If fail to plan, You plan to fail</li>
+                <li>--If You fail to plan, You plan to fail</li>
                 <li>--United we stand, Divided we fall</li>
-                <li>--If fail to plan, You plan to fail</li>
-                <li>--United we stand, Divided we fall</li>
+                <li>--Fix the cause, not the symptom</li>
+                <li>--Make it work, make it right, make it fast</li>
               </ul>
               <br />
               <br />

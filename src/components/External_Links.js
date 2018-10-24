@@ -18,11 +18,11 @@ class External_links extends Component {
               </p>
             </div>
             <div />
-            <div>hi</div>
-            <div>hi</div>
-            <div>hi</div>
-            <div>hi</div>
-            <div>hi</div>
+            <div />
+            <div />
+            <div />
+            <div />
+            <div />
           </div>
         </main>
       </div>

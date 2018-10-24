@@ -4,9 +4,10 @@
 .logo {
   display: block;
   font-size: 1em;
+  float: left;
   margin-left: 0;
   margin-top: 55px;
-  position: absolute;
+  position: relative;
   line-height: 0.7em;
 }
 header {
@@ -17,10 +18,9 @@ header {
 }
 
 /* Drop Down Menu*/
-nav > div > ul {
-  display: block;
-  float: right;
+nav > ul {
   position: absolute;
+  margin-top: 100px;
 }
 nav > button {
   display: block;
@@ -30,40 +30,35 @@ nav > button {
   padding: 2px 3px 2px 3px;
   border-radius: 5px;
 }
-nav {
-  float: right;
-  margin-top: 90px;
-  text-align: left;
-  margin-right: 58px;
-}
+
 nav > ul > li {
   display: block;
   color: #eee;
   margin: 1px 0 0 0;
   background-color: #0a3170;
   padding: 10px;
-  font-size: 0.61em;
+  font-size: 0.8em;
+  text-align: left;
 }
 nav > ul > li > a {
   text-decoration: none;
   color: #eee;
 }
-nav > ul > li > ul > li > a {
-  color: gray;
-  text-decoration: none;
-}
 
-nav > ul > li > ul > a:hover {
-  color: gray;
-}
-nav > ul > li:hover > ul {
-  display: block;
-  position: absolute;
-  list-style: none;
-}
 #menu_Items.hidden {
   display: none;
 }
 #menu_Items {
   width: 100vw;
+}
+
+/*External Links Page*/
+.External_links > div {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px dashed grey;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

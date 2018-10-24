@@ -78,32 +78,50 @@ header > img {
   display: none;
 }
 /*About Us Page elements*/
-.Profiles {
+.About_us_Profiles {
   display: flex;
   width: 100%;
   justify-content: center;
   text-align: center;
   min-height: 300px;
   padding: 20px;
-  border: 1px dotted grey;
-}
-.Profiles > div {
-  border: 1px dotted grey;
   flex-direction: row;
-}
-.Profiles {
-  flex-direction: row;
-  text-align: center;
-  width: 100%;
   margin: 0 -15px;
-  padding: 20px;
 }
-.Profiles > div {
+.About_us_Profiles > div {
+  border: 1px dotted grey;
+  flex-direction: row;
   margin: 0 15px;
   width: 400px;
   padding-top: 20px;
   border: 1px dotted grey;
 }
+.About_us_Profiles > div > img {
+  border-radius: 50%;
+}
+.about_us_banner {
+  color: #fff;
+  margin-top: 20px;
+  height: 250px;
+  width: 70%;
+  padding: 20px;
+  margin-left: auto;
+  opacity: 0.2;
+  margin-right: auto;
+  text-align: center;
+  background-image: url(/About_banner.jpeg);
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 700px #0a3170;
+}
+.about_us_banner > p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about_us_banner > h1 {
+  margin-top: 20px;
+}
+
 .ContactForm {
   height: 300px;
 }
@@ -146,4 +164,25 @@ span > hr {
 }
 .Profile_page2_right > aside > p {
   color: #0a3170;
+}
+
+/*External Links Page */
+.External_links {
+  display: flex;
+  flex-direction: column;
+}
+.External_links > div {
+  width: 70%;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px dashed grey;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.External_links > div > h2 {
+  color: #0a3170;
+}
+.External_links > div > link {
+  color: grey;
 }

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* ===============
+   PROFILE_EME 
+   =============== */
+.Profile_page2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px dotted #808080;
+  min-height: 500px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Profile_page2 > div {
+  border: 1px dotted #808080;
+  padding: 20px;
+}
+.Profile_page2_left {
+  background-color: #0a3170;
+  color: #eee;
+  max-width: 210px;
+  line-height: 2em;
+}
+.Profile_page2_left > img {
+  border-radius: 50%;
+}
+.Profile_page2_left > i {
+  margin-left: 65px;
+}
+span > hr {
+  border-top: dashed 1px;
+}
+.Profile_page2_right > aside {
+  line-height: 2em;
+  color: #808080;
+}
+.Profile_page2_right > aside > p {
+  color: #0a3170;
+}

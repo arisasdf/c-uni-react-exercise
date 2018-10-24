@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* ===============
+   PROFILE_EME 
+   =============== */
+.Profile_page2 {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px dotted #808080;
+  min-height: 500px;
+  justify-content: center;
+}
+.Profile_page2 > div {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted #808080;
+  padding: 20px;
+  min-width: 100%;
+}
+.Profile_page2_left {
+  background-color: #0a3170;
+  color: #eee;
+  line-height: 2em;
+  text-align: center;
+}
+.Profile_page2_left > img {
+  display: none;
+}
+.Profile_page2_left > i {
+  text-align: center;
+}
+span > hr {
+  border-top: dashed 1px;
+}
+.Profile_page2_right aside {
+  line-height: 2em;
+  color: #808080;
+}
+.Profile_page2_right p {
+  color: #0a3170;
+}

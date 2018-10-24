@@ -33,7 +33,7 @@ class Header extends Component {
               <Link to="/About">ABOUT US</Link>
             </li>
             <li class="videos">
-              <Link to="/View_Video_Tutorials">VIDEO TUTORIALS</Link>
+              <Link to="/Video_Tutorials">VIDEO TUTORIALS</Link>
             </li>
             <li class="resources">
               <Link to="/Learning_Resources">LEARNING RESOURCES</Link>

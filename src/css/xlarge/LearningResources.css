@@ -1,0 +1,38 @@
+/* -------------
+Resource Listing
+------------- */
+.resource-listing__boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.resource-listing__boxes .resource__box {
+	width: 23%;
+	margin: 2em 0;
+}
+
+/* -----------------
+Single Resource Page
+----------------- */
+.learning-resource__page .breadcrumbs {
+	margin-bottom: 2em;
+}
+.learning-resource__page h1 {
+	text-align: left;
+}
+.learning-resource__page h2 {
+	font-size: 2em;
+}
+.learning-resource__category {
+	font-variant: all-petite-caps;
+  color: silver;
+}
+
+.learning-resource__page cite {
+	color: #00c0c0;
+}
+
+.learning-resource__page p {
+	text-align: justify;
+	margin: 1em 0;
+}

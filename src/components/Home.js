@@ -14,7 +14,7 @@ class Home extends Component {
 				</section>
 				<HomeSection title="Learning Resources"
 					section="resources"
-					items={resourceJson.resources} />
+					items={resourceJson.resources.slice(0, 3)} />
 			</main>
     );
   }

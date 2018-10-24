@@ -13,13 +13,13 @@ Hero Section
 Home Section
 --------- */
 
-.home-section {
-	padding: 1em 10%;
-}
-
-.resource__box {
+.home-section .resource__box {
 	width: 28%;
 }
-.resource__box:first-child {
+.home-section .resource__box:first-child {
 	display: none;
+}
+
+.responsive-padded {
+	padding: 1em 10%;
 }

@@ -14,9 +14,10 @@ Hero Section
 /* ---------
 Home Section
 --------- */
-.home-section {
-	padding: 1em 5%;
-}
 .home-section h2 {
 	font-size: 2.5em;
+}
+
+.responsive-padded {
+	padding: 1em 5%;
 }

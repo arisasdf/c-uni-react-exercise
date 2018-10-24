@@ -32,10 +32,6 @@ Hero Section
 /* ----------
 Home Sections
 ---------- */
-
-.home-section {
-	padding: 1em 15%;
-}
 .home-section:first-of-type {
 	padding-top: 1.5em;
 }
@@ -49,10 +45,14 @@ Home Sections
 	text-align: center;
 }
 
-.resource__row {
+.home-section .resource__row {
 	display: flex;
 	justify-content: space-between;
 }
-.resource__box {
+.home-section .resource__box {
 	width: 20%;
+}
+
+.responsive-padded {
+	padding: 1em 15%;
 }

@@ -21,10 +21,11 @@
   font-size: 2em;
   color: #00c0c0;
 }
-.resource-category {
+.resource__box-category {
+	font-variant: all-petite-caps;
   color: silver;
 }
-.resource-author {
+.resource__box-author {
   color: #888;
   margin: .6em 0 .3em;
 }

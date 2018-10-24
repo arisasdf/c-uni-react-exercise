@@ -17,6 +17,18 @@
       "author"   : "Michael Feathers",
       "category" : "quality",
       "slug"     : "golden-rule"
+    },
+    {
+      "title"    : "Some bogus article",
+      "author"   : "Lucia Serrano",
+      "category" : "javascript",
+      "slug"     : "bogus"
+    },
+    {
+      "title"    : "This one is actually good",
+      "author"   : "Bob Ino",
+      "category" : "html",
+      "slug"     : "bobberino"
     }
   ]
 }

@@ -56,7 +56,7 @@ class About extends Component {
               <section>
                 <p>Eme Effiom</p>
                 <p>
-                  <Link to="/Profile2">Discover more</Link>
+                  <Link to="/About/Profile2">Discover more</Link>
                 </p>
               </section>
             </div>

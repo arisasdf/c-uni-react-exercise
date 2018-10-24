@@ -1,0 +1,38 @@
+.blog {
+	padding: 1em 15%;
+}
+.blog h1 {
+	color: #0A3170;
+	margin: 1em 0 .5em;
+}
+
+.blog__post {
+	padding: 2em;
+}
+
+.blog__post + .blog__post {
+	border-top: 1px solid silver;
+}
+
+.blog__post img {
+	border-radius: 50%;
+  height: 5em;
+  float: left;
+}
+
+.blog__post h2 {
+	padding-top: .1em;
+  font-size: 2.5em;
+}
+
+.blog__post h4 {
+	font-size: 2em;
+	color: silver;
+}
+
+.blog__post p:first-of-type {
+	margin-top: 1.5em;
+}
+.blog__post p {
+	margin: .5em;
+}

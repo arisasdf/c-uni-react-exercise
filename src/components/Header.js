@@ -39,10 +39,10 @@ class Header extends Component {
               <Link to="/Learning_Resources">LEARNING RESOURCES</Link>
             </li>
             <li class="ext_links">
-              <Link to="/External_Links">EXTERNAL LINKS</Link>
+              <Link to="/external">EXTERNAL LINKS</Link>
             </li>
             <li>
-              <Link to="/Blog">BLOG</Link>
+              <Link to="/blog">BLOG</Link>
             </li>
           </ul>
         </nav>

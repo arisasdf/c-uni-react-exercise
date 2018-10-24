@@ -7,7 +7,7 @@ class About extends Component {
     return (
       <div>
         <div className="flex-container">
-          <div className="about_us_banner">
+          <section className="about_us_banner">
             <h1>IMPROVING LIVES THROUGH LEARNING</h1>
             <br />
             <p>
@@ -22,10 +22,10 @@ class About extends Component {
               helping students. They are experts who stay active in thier fields
               in order to deliver the most up-to-date contents.
             </p>
-          </div>
+          </section>
           <h1>OUR TEAM</h1>
           <div className="flex-container About_us_Profiles">
-            <div>
+            <figure>
               <img
                 src="/About_banner.jpeg"
                 alt="About us"
@@ -35,15 +35,13 @@ class About extends Component {
               />
               <br />
               <br />
-              <section>
-                <p>Lucia Serrano</p>
 
-                <p>
-                  <Link to="/Profile1">Discover more</Link>
-                </p>
-              </section>
-            </div>
-            <div>
+              <figcaption>
+                <p>Lucia Serrano</p>
+                <Link to="/Profile1">Discover more</Link>
+              </figcaption>
+            </figure>
+            <figure>
               <img
                 src="/About_banner.jpeg"
                 alt="About us"
@@ -53,13 +51,12 @@ class About extends Component {
               />
               <br />
               <br />
-              <section>
+              <figcaption>
                 <p>Eme Effiom</p>
-                <p>
-                  <Link to="/About/Profile2">Discover more</Link>
-                </p>
-              </section>
-            </div>
+
+                <Link to="/About/Profile2">Discover more</Link>
+              </figcaption>
+            </figure>
           </div>
           <div className="ContactForm">
             <h1>CONTACT US</h1>

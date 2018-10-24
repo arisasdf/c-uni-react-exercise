@@ -51,20 +51,6 @@ nav > ul > li > a {
 #menu_Items {
   width: 100vw;
 }
-/*About us  Page */
-.About_us_Profiles {
-  display: flex;
-  min-width: 100%;
-  justify-content: center;
-  text-align: center;
-  min-height: 300px;
-  padding: 20px;
-  flex-direction: column;
-  margin: 0 -15px;
-}
-.About_us_Profiles > figure {
-  width: 90%;
-}
 
 /*External Links Page*/
 .External_links > div {

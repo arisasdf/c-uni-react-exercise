@@ -1,0 +1,66 @@
+/*About Us Page Elements*/
+
+.About_us_Profiles {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  min-height: 300px;
+  padding: 20px;
+  margin: 0 -15px;
+}
+.About_us_Profiles > figure {
+  border: 1px dotted grey;
+  margin: 0 15px;
+  width: 20%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.About_us_Profiles > figure > img {
+  border-radius: 50%;
+  padding: 20px;
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about_us_banner {
+  color: #eee;
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  /*image adopted from https://www.pexels.com/photo/macbook-laptop-smartphone-apple-7358/*/
+
+  background-image: url(/About_banner.jpg);
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+}
+.about_us_banner > img {
+  opacity: 0.8;
+}
+.about_us_banner > p {
+  padding: 2.5em 15% 2.8em;
+  margin-top: 20px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin: 1.2em 0;
+  text-align: left;
+}
+
+.about_us_banner > h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.ContactForm {
+  height: 300px;
+}
+h1 {
+  text-align: center;
+}

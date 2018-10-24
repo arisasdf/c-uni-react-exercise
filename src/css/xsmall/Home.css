@@ -10,3 +10,13 @@ Hero Section
 .hero-section p:last-child {
 	font-size: 1.5em;
 }
+
+/* ---------
+Home Section
+--------- */
+.home-section {
+	padding: 1em 5%;
+}
+.home-section h2 {
+	font-size: 2.5em;
+}

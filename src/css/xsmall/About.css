@@ -1,0 +1,47 @@
+/*About us Page Elements */
+.About_us_Profiles {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  justify-content: center;
+  text-align: center;
+  min-height: 500px;
+  padding: 20px;
+  margin: 0 -15;
+}
+.About_us_Profiles > figure {
+  width: 90%;
+}
+.About_us_Profiles > figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.About_us_Profiles > figure > img {
+  border-radius: 50%;
+  padding: 5px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_us_banner > p {
+  padding: 2.5em 15% 2.8em;
+  margin-top: 20px;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  margin: 1.2em 0;
+  text-align: left;
+}
+
+.about_us_banner > h1 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.ContactForm {
+  height: 300px;
+}
+h1 {
+  text-align: center;
+}

@@ -11,7 +11,7 @@
 }
 header {
   height: 90px;
-  position: fixed;
+  position: relative;
   width: 100%;
   margin-top: 0px;
 }
@@ -30,13 +30,13 @@ nav > button {
   padding: 2px 3px 2px 3px;
   border-radius: 5px;
 }
-nav > div {
+nav {
   float: right;
   margin-top: 90px;
   text-align: left;
   margin-right: 58px;
 }
-nav > div > ul > li {
+nav > ul > li {
   display: block;
   color: #eee;
   margin: 1px 0 0 0;
@@ -44,23 +44,26 @@ nav > div > ul > li {
   padding: 10px;
   font-size: 0.61em;
 }
-nav > div > ul > li > a {
+nav > ul > li > a {
   text-decoration: none;
   color: #eee;
 }
-nav > div > ul > li > ul > li > a {
+nav > ul > li > ul > li > a {
   color: gray;
   text-decoration: none;
 }
 
-nav > div > ul > li > ul > a:hover {
+nav > ul > li > ul > a:hover {
   color: gray;
 }
-nav > div > ul > li:hover > ul {
+nav > ul > li:hover > ul {
   display: block;
   position: absolute;
   list-style: none;
 }
-#menu_Items {
+#menu_Items.hidden {
   display: none;
+}
+#menu_Items {
+  width: 100vw;
 }

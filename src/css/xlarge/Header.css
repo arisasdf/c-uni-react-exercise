@@ -27,29 +27,29 @@ nav > button {
 }
 
 /* Drop-down menu */
-nav > div > ul > li {
+nav > ul > li {
   display: inline-block;
   padding: 10px;
   position: relative;
   color: #eee;
 }
-nav > div > ul > li > a {
+nav > ul > li > a {
   text-decoration: none;
   color: #eee;
 }
-nav > div > ul > li > ul {
+nav > ul > li > ul {
   display: none;
   padding: 0;
 }
-nav > div > ul > li > ul > li > a {
+nav > ul > li > ul > li > a {
   color: gray;
   text-decoration: none;
 }
 
-nav > div > ul > li > ul > a:hover {
+nav > ul > li > ul > a:hover {
   color: gray;
 }
-nav > div > ul > li:hover > ul {
+nav > ul > li:hover > ul {
   display: block;
   position: absolute;
   list-style: none;
@@ -71,7 +71,7 @@ header {
   height: 85px;
   margin-top: 0px;
 }
-nav > div > ul > li {
+nav > ul > li {
   margin-top: 50px;
 }
 header > img {

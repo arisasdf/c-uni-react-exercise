@@ -21,9 +21,12 @@ class Blog extends Component {
           paragraphs={[
             "Starting out with react has been exciting so far, i am happy with the opportunity to learn and explore something new. We started first by looking up on online resources, setting up the environment, installing the softwares, and Creating the app itself",
 
-            "We then began to create the initial structure of the project and push to gitlab. My Greatest challenge was managing the gitlab pushes and updates on Taiga and  coding at the same time. I was a great opportunity for me to learn. After setting up the project structure, Lucia helped with the initial pushes on gitlab and i updated it on my system. Thereafter, i began to create the initial components and style them as well.Afterwards, i started with my gitlab pushes",
+            "We then began to create the initial structure of the project and push to gitlab.It was a great opportunity for me to learn. After setting up the project structure, Lucia helped with the initial pushes on gitlab, she also worked on the footer and banner on the homepage.",
+            "Thereafter, i began to create the initial components and style them as well.Afterwards, i started with my gitlab pushes",
 
-            "Its been interesting so far undertaking the pair project, having to seat with someone else, join heads together and solve a problem. Its really been more productive.We have been exlopring several aspects of react and are still learning on it"
+            "Its been interesting so far undertaking the pair project, having to seat with someone else, join heads together and solve a problem. Its really been more productive.We have been exploring several aspects of react and are still learning on it",
+
+            "The next thing for us now is to proceed with the actual content of the page where i willstart creating the Profile page and Lucia would do the rest of the homepage"
           ]}
         />
       </main>

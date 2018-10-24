@@ -1,0 +1,12 @@
+/* ---------
+Hero Section
+--------- */
+.hero-section {
+	padding: 2.5em 5% 2.8em;
+}
+.hero-section p {
+	font-size: 1.3em;
+}
+.hero-section p:last-child {
+	font-size: 1.5em;
+}

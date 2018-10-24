@@ -11,11 +11,11 @@ import Footer from "./Footer";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Header />
 
         <Switch>
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/External_Links" component={External_Links} />
           <Route exact path="/Profile1" component={Profile1} />
           <Route exact path="/Profile2" component={Profile2} />

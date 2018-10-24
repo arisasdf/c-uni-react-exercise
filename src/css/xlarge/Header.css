@@ -1,5 +1,7 @@
 @charset "UTF-8";
-/* Extra Large devices */
+/* ===============
+   HEADER PAGE  
+   =============== */
 ul {
   margin-top: 0;
 }
@@ -76,62 +78,4 @@ nav > ul > li {
 }
 header > img {
   display: none;
-}
-
-/*Profile2 Page elements*/
-.Profile_page2 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  border: 1px dotted grey;
-  min-height: 500px;
-  justify-content: center;
-  margin-top: 20px;
-}
-.Profile_page2 > div {
-  border: 1px dotted grey;
-  padding: 20px;
-}
-.Profile_page2_left {
-  background-color: #0a3170;
-  color: #eee;
-  max-width: 210px;
-  line-height: 2em;
-}
-.Profile_page2_left > img {
-  border-radius: 50%;
-}
-.Profile_page2_left > i {
-  margin-left: 65px;
-}
-span > hr {
-  border-top: dashed 1px;
-}
-.Profile_page2_right > aside {
-  line-height: 2em;
-  color: gray;
-}
-.Profile_page2_right > aside > p {
-  color: #0a3170;
-}
-
-/*External Links Page */
-.External_links {
-  display: flex;
-  flex-direction: column;
-}
-.External_links > div {
-  width: 70%;
-  height: 100px;
-  margin-top: 20px;
-  border: 1px dashed grey;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-.External_links > div > h2 {
-  color: #0a3170;
-}
-.External_links > div > link {
-  color: grey;
 }

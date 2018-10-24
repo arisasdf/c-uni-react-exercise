@@ -46,7 +46,7 @@ class About extends Component {
               <figcaption>
                 <p>Eme Effiom</p>
 
-                <Link to="/Profile2">Discover more</Link>
+                <Link to="/Profile_Eme">Discover more</Link>
               </figcaption>
             </figure>
           </div>

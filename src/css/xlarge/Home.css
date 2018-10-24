@@ -26,3 +26,32 @@ Hero Section
 	font-weight: 400;
 	margin: 0;
 }
+
+
+/* ----------
+Home Sections
+---------- */
+
+.home-section {
+	padding: 1em 15%;
+}
+.home-section:first-of-type {
+	padding-top: 1.5em;
+}
+.home-section:last-of-type {
+	padding-bottom: 1.5em;
+}
+.home-section h2 {
+	margin: .3em 0 .5em;
+	color: #0A3170;
+	font-size: 3em;
+	text-align: center;
+}
+
+.resource__row {
+	display: flex;
+	justify-content: space-between;
+}
+.resource__box {
+	width: 20%;
+}

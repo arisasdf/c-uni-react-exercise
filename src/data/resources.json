@@ -1,0 +1,22 @@
+{ "resources" :
+  [
+    {
+      "title"    : "Comment Only What the Code Cannot Say",
+      "author"   : "Kevlin Henney",
+      "category" : "css",
+      "slug"     : "comment"
+    },
+    {
+      "title"    : "Improve Code by Removing It",
+      "author"   : "Pete Godliffe",
+      "category" : "javascript",
+      "slug"     : "removing"
+    },
+    {
+      "title"    : "The Golden Rule of API Design",
+      "author"   : "Michael Feathers",
+      "category" : "quality",
+      "slug"     : "golden-rule"
+    }
+  ]
+}

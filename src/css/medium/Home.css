@@ -8,3 +8,18 @@ Hero Section
 .hero-section p {
 	width: 100%
 }
+
+/* ---------
+Home Section
+--------- */
+
+.home-section {
+	padding: 1em 10%;
+}
+
+.resource__box {
+	width: 28%;
+}
+.resource__box:first-child {
+	display: none;
+}

@@ -27,7 +27,7 @@ class Header extends Component {
 
           <ul id="menu_Items" class={this.state.showMenu ? "" : "hidden"}>
             <li>
-              <Link to="/Home">HOME</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li>
               <Link to="/About">ABOUT US</Link>

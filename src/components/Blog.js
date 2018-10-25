@@ -29,13 +29,22 @@ class Blog extends Component {
             "The next thing for us now is to proceed with the actual content of the page where i willstart creating the Profile page and Lucia would do the rest of the homepage"
           ]}
         />
-				<BlogPost author="lucia"
-					postTitle="Homepage and About"
-					paragraphs={[
-						"After adding the hero banner, I've created the first homepage section, structured in card style, fully responsive, by reading the data from a JSON file and mapping it to a component. The next step would be to reuse these components to create the video section, and try and reuse it in the main pages as well.",
-						"Eme is done with the About page and her own profile page, and she added a placeholder for my page. She's now working on the general display for the external links."
-					]}
-				/>
+        <BlogPost
+          author="lucia"
+          postTitle="Homepage and About"
+          paragraphs={[
+            "After adding the hero banner, I've created the first homepage section, structured in card style, fully responsive, by reading the data from a JSON file and mapping it to a component. The next step would be to reuse these components to create the video section, and try and reuse it in the main pages as well.",
+            "Eme is done with the About page and her own profile page, and she added a placeholder for my page. She's now working on the general display for the external links."
+          ]}
+        />
+        <BlogPost
+          author="eme"
+          postTitle="Profile Page and External Links"
+          paragraphs={[
+            "I have Created my  profile page and have also added the page content, styled to suit every screen size . i have also created a responsive layout for the external links page",
+            "Lucia has now completed the individual pages for Learning resources, she is now working on the Video resources and Learning resources page "
+          ]}
+        />
       </main>
     );
   }

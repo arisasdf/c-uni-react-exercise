@@ -53,6 +53,15 @@ class Blog extends Component {
             "Meanwhile, Eme has been adding content and styles to the Learning Resources and External Links pages, which had only placeholder text and links. After this Eme will focus on the contact form and I'll create the comment interface for the resources. We're still pending the Videos page and my own profile page, and maybe some CSS tweaks."
           ]}
         />
+        <BlogPost
+          author="Eme"
+          postTitle="Create contact form"
+          paragraphs={[
+            "I've add some learning materials to the learning resources page , and have also updated the sources of these materials on the External Links Page",
+            "I have also modified the Styles in the External Links Page.",
+            "Lucia has uploaded the content for the video tutorials page and is currently working on her Profile page"
+          ]}
+        />
       </main>
     );
   }

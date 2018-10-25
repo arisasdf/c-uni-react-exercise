@@ -6,3 +6,6 @@
 	margin: 0;
 	padding-bottom: 0;
 }
+.resource__request-form {
+	padding: 0 0 2em 15%;
+}

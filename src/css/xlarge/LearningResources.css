@@ -15,7 +15,7 @@ Resource Listing
 Single Resource Page
 ----------------- */
 .learning-resource__page .breadcrumbs {
-	margin-bottom: 2em;
+	margin: 2em 0;
 }
 .learning-resource__page h1 {
 	text-align: left;

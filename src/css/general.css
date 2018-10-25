@@ -10,7 +10,8 @@ h1, h2, h3, h4, h5, h6, thead, hgroup {
 }
 
 div, p, blockquote, li, label, table,
-article, aside, footer, header, section {
+input, textarea, button, article,
+aside, footer, header, section {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -27,4 +28,9 @@ h1 {
 
 .clearfix {
 	clear: both;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	color: #00c0c0;
 }

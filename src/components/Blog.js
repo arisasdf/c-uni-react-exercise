@@ -4,7 +4,7 @@ import BlogPost from "./BlogPost";
 class Blog extends Component {
   render() {
     return (
-      <main class="blog">
+      <main class="blog responsive-padded">
         <h1>Progress Blog</h1>
         <BlogPost
           author="lucia"
@@ -43,6 +43,14 @@ class Blog extends Component {
           paragraphs={[
             "I have Created my  profile page and have also added the page content, styled to suit every screen size . i have also created a responsive layout for the external links page",
             "Lucia has now created the individual pages for Learning resources, she is now working on the Video resources and Learning resources page Content "
+          ]}
+        />
+        <BlogPost
+          author="lucia"
+          postTitle="Suggest a topic and new learning resources"
+          paragraphs={[
+            "I've created a request form for the users to suggest a topic they'd be interested in seeing added to the page, and integrated it into the footer for this to be available from every page. I also piggybacked into my footer work to enable the footer links.",
+            "Meanwhile, Eme has been adding content and styles to the Learning Resources and External Links pages, which had only placeholder text and links. After this Eme will focus on the contact form and I'll create the comment interface for the resources. We're still pending the Videos page and my own profile page, and maybe some CSS tweaks."
           ]}
         />
       </main>

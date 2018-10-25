@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* ===============
-   ABOUT US PAGE 
+   ABOUT US PAGE
    =============== */
 
 /* Page Banner */
 .about_us_banner {
-  color: #eee;
+  color: #fff;
   height: 250px;
   width: 100%;
   padding: 20px;
@@ -15,7 +15,7 @@
 
   /*image adopted from https://www.pexels.com/photo/macbook-laptop-smartphone-apple-7358/*/
 
-  background-image: url(/About_banner.jpg);
+  background-image:  url(/img/about-hero.png);
   margin-bottom: 20px;
   background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@
 }
 
 .about_us_banner > h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 800;
 }
 /* Page Content: Profiles */
@@ -53,6 +53,14 @@
   padding-top: 20px;
   display: flex;
   flex-direction: column;
+}
+.About_us_Profiles figcaption p:first-child {
+  font-size: 2em;
+}
+.About_us_Profiles figcaption a {
+  font-size: 1.5em;
+  color: #00c0c0;
+  line-height: 1.8em;
 }
 .About_us_Profiles > figure > img {
   border-radius: 50%;

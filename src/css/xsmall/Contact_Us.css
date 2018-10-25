@@ -5,23 +5,23 @@
    =============== */
 @charset "UTF-8";
 /* ===============
-        CONTACT FORM 
+        CONTACT FORM
          COMPONENT
       =============== */
 
-input {
+.contact_form_section input {
   width: 55%;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
 }
-input[typt="text"] {
+.contact_form_section input[typt="text"] {
   padding-left: 20px;
 }
-label {
+.contact_form_section label {
   padding: 5px;
 }
-input[type="submit"] {
+.contact_form_section input[type="submit"] {
   background-color: #0a3170;
   color: white;
   padding: 2px 0px;
@@ -29,11 +29,11 @@ input[type="submit"] {
   border-radius: 4px;
   height: 15px;
 }
-.container {
+.contact_form_section .container {
   border-radius: 5px;
   margin-left: 0%;
 }
-.form_section {
+.contact_form_section {
   position: absolute;
   height: 200px;
   background-color: #f2f2f2;

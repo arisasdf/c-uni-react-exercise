@@ -34,3 +34,7 @@ h1 {
 	display: inline-block;
 	color: #00c0c0;
 }
+
+#root {
+	padding-top: 85px;
+}

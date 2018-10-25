@@ -1,0 +1,59 @@
+.lucia__profile {
+	text-align: center;
+}
+
+.lucia__title {
+	margin-top: .5em;
+	color: hotpink;
+	font-size: 4em;
+}
+
+.lucia__subtitle{
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 2em;
+}
+
+.lucia__picture {
+	height: 200px;
+	border-radius: 50%;
+}
+
+.lucia__profile h2 {
+	font-size: 1.8em;
+	color: hotpink;
+	margin: 1.5em 0 .3em;
+}
+
+.lucia__profile a {
+	color: #00c0c0;
+}
+
+.lucia__profile strong {
+	font-weight: 600;
+}
+
+.lucia__profile table {
+	margin: 0 auto;
+}
+.lucia__profile table + table {
+	margin-top: 1em;
+}
+
+.lucia__profile td {
+	width: 25em;
+}
+.lucia__profile td:first-child {
+	width: 13em;
+	background-color: whitesmoke;
+}
+.lucia__profile th {
+	font-size: 1.5em;
+	background-color: gainsboro;
+}
+
+.lucia__profile li,
+.lucia__profile td,
+.lucia__profile p {
+	font-size: 1.2em;
+}

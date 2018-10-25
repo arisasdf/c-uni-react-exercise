@@ -4,7 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import External_Links from "./External_Links";
-import Profile1 from "./Profile1";
+import ProfileLucia from "./ProfileLucia";
 import Profile_Eme from "./Profile_Eme";
 import LearningResources from "./LearningResources";
 import LearningResource from "./LearningResource";
@@ -20,8 +20,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/external" component={External_Links} />
-          <Route path="/about/lucia" component={Profile1} />
-          <Route path="/Profile_Eme" component={Profile_Eme} />
+          <Route path="/about/lucia" component={ProfileLucia} />
+          <Route path="/about/eme" component={Profile_Eme} />
           <Route path="/about" component={About} />
           <Route exact path="/learning" component={LearningResources} />
           <Route path="/learning/:slug" component={LearningResource} />

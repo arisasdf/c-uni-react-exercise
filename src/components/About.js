@@ -8,7 +8,7 @@ class About extends Component {
       <div>
         <div className="flex-container">
           <section className="about_us_banner">
-            <h1>IMPROVING LIVES THROUGH LEARNING</h1>
+            <h1>Improving lives through Learning</h1>
             <br />
             <p>
               Talent is Universal but opportunities are not.With access to
@@ -20,7 +20,7 @@ class About extends Component {
           <div className="flex-container About_us_Profiles">
             <figure>
               <img
-                src="/About_banner.jpg"
+                src="/img/lucia-photo.png"
                 alt="About us"
                 class="center"
                 width="50%"
@@ -30,13 +30,13 @@ class About extends Component {
               <br />
 
               <figcaption>
-                <p>Lucia Serrano</p>
-                <Link to="/Profile1">Discover more</Link>
+                <p>Luc&iacute;a Serrano</p>
+                <Link to="/about/lucia">Discover more</Link>
               </figcaption>
             </figure>
             <figure>
               <img
-                src="/About_banner.jpg"
+                src="/img/eme-photo.png"
                 alt="About us"
                 class="center"
                 width="50%"
@@ -47,7 +47,7 @@ class About extends Component {
               <figcaption>
                 <p>Eme Effiom</p>
 
-                <Link to="/Profile_Eme">Discover more</Link>
+                <Link to="/about/eme">Discover more</Link>
               </figcaption>
             </figure>
           </div>

@@ -13,7 +13,7 @@ class Home extends Component {
 					<p>What are you waiting for? Get&nbsp;to&nbsp;it.</p>
 				</section>
 				<HomeSection title="Learning Resources"
-					section="resources"
+					section="learning"
 					items={resourceJson.resources.slice(0, 3)} />
 			</main>
     );

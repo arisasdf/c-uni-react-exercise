@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Contact_Us from "./Contact_Us";
 
 class About extends Component {
   render() {
@@ -52,6 +53,7 @@ class About extends Component {
           </div>
           <div className="ContactForm">
             <h1>CONTACT US</h1>
+            <Contact_Us />
           </div>
           <footer />
         </div>

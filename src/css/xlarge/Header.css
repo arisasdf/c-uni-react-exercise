@@ -17,7 +17,7 @@ ul {
 header {
   background-color: #0a3170;
   margin: 0;
-  position: relative;
+  position: fixed;
   width: 100%;
 }
 

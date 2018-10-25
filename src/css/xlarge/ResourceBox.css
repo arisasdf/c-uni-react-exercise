@@ -17,9 +17,16 @@
 	background-image: url("/img/thumb/html.png");
 }
 
+.resource__box.video-resource__box {
+	background-image: none;
+}
+
 .resource__box h3 {
   font-size: 2em;
   color: #00c0c0;
+}
+.video-resource__box h3 {
+  font-size: 1.6em;
 }
 .resource__box-category {
 	font-variant: all-petite-caps;
@@ -28,6 +35,14 @@
 .resource__box-author {
   color: #888;
   margin: .6em 0 .3em;
+}
+.resource__box-thumb {
+	text-align: center;
+	background-color: gainsboro;
+	margin: .6em 0 .4em;
+}
+.resource__box-thumb img{
+	height: 6em;
 }
 
 .resource__box--more {
@@ -43,4 +58,7 @@
 .resource__box--more img {
 	opacity: .3;
 	height: 4em;
+}
+.resource__box--more.video-resource__box {
+	padding: 3em 0;
 }

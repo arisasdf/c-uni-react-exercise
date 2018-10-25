@@ -8,6 +8,8 @@ import ProfileLucia from "./ProfileLucia";
 import Profile_Eme from "./Profile_Eme";
 import LearningResources from "./LearningResources";
 import LearningResource from "./LearningResource";
+import VideoTutorials from "./VideoTutorials";
+import VideoTutorial from "./VideoTutorial";
 import Blog from "./Blog";
 import Footer from "./Footer";
 
@@ -25,6 +27,8 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route exact path="/learning" component={LearningResources} />
           <Route path="/learning/:slug" component={LearningResource} />
+          <Route exact path="/video" component={VideoTutorials} />
+          <Route path="/video/:slug" component={VideoTutorial} />
           <Route path="/blog" component={Blog} />
         </Switch>
 

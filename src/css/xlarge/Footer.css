@@ -1,10 +1,13 @@
+/* ---------
+Footer Links
+--------- */
 .global-footer {
 	background-color: #0A3170;
 	color: #FFF;
 }
 
 .global-footer__block {
-	width: 14em;
+	width: 12em;
 	display: inline-block;
 	padding: 2em 0;
 	vertical-align: top;
@@ -30,4 +33,57 @@
 	background-color: #001942;
 	font-style: italic;
 	font-size: .8em;
+}
+
+
+/* ---------
+Request Form
+--------- */
+.resource__request-form {
+	float: right;
+	width: 18em;
+	margin-right: 15%;
+}
+.resource__request-form label,
+.resource__request-form input,
+.resource__request-form textarea {
+	font-size: .8em;
+}
+.resource__request-form .category__radios {
+	display: flex;
+	justify-content: space-between;
+	padding: .3em 0 .5em;
+}
+
+.resource__request-form label:first-of-type {
+	display: inline-block;
+	width: 20%;
+}
+.resource__request-form #email__input {
+	display: inline-block;
+	padding: 0 1%;
+	width: 78%;
+	height: 1.8em;
+}
+.resource__request-form #description__textbox {
+	width: 94%;
+	height: 4em;
+	resize: none;
+	padding: .8em 3%;
+}
+.resource__request-form #email__input,
+.resource__request-form #description__textbox {
+	background-color: #001942;
+	color: white;
+	border: none;
+	font-weight: 600;
+}
+
+.resource__request-form button {
+	float: right;
+	margin-top: .6em;
+	background-color: gainsboro;
+	border: none;
+	border-radius: 2px;
+	padding: .2em .4em;
 }

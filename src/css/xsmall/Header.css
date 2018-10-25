@@ -1,5 +1,7 @@
 @charset "UTF-8";
-/* extra Small Devices*/
+/* ===============
+   HEADER COMPONENT
+   =============== */
 
 .logo {
   display: block;
@@ -50,15 +52,4 @@ nav > ul > li > a {
 }
 #menu_Items {
   width: 100vw;
-}
-
-/*External Links Page*/
-.External_links > div {
-  width: 100%;
-  height: 100px;
-  margin-top: 20px;
-  border: 1px dashed grey;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }

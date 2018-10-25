@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* ===============
+   EXTERNAL LINKS 
+         PAGE 
+   =============== */
+.External_links {
+  display: flex;
+  flex-direction: column;
+}
+.External_links > div {
+  width: 70%;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px dashed grey;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.External_links h1 {
+  color: #0a3170;
+  font-size: 1.5em;
+}
+.External_links a {
+  color: grey;
+  font-size: 0.9em;
+}
+.External_links p {
+  font-size: 1em;
+}

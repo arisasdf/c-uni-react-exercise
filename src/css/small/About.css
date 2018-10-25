@@ -1,4 +1,7 @@
-/*About us Page Elements */
+@charset "UTF-8";
+/* ===============
+   ABOUT US PAGE 
+   =============== */
 .About_us_Profiles {
   display: flex;
   flex-direction: column;

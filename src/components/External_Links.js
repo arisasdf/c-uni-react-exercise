@@ -18,13 +18,12 @@ class External_links extends Component {
               </p>
             </div>
             <div>
-              <h1>DAVID J ECK</h1>
+              <h1>HTML Dog</h1>
               <p>
-                Introduction to Programming Using Java, Seventh Edition Version
-                7.0, August 2014
+                Getting started with HTML
                 <br />
-                <a href="http://math.hws.edu/javanotes/">
-                  http://math.hws.edu/javanotes/
+                <a href="http://www.htmldog.com/guides/html/beginner/gettingstarted//">
+                  http://www.htmldog.com/guides/html/beginner/gettingstarted/
                 </a>
               </p>
             </div>
@@ -39,11 +38,13 @@ class External_links extends Component {
               </p>
             </div>
             <div>
-              <h1>JAVASCRIPT.INFO</h1>
+              <h1>MDN Web Documentations</h1>
               <p>
-                The Modern Javascript Tutorials
+                Javascript
                 <br />
-                <a href="https://javascript.info/">https://javascript.info/</a>
+                <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">
+                  https://developer.mozilla.org/bm/docs/Web/JavaScript
+                </a>
               </p>
             </div>
 
@@ -58,15 +59,12 @@ class External_links extends Component {
               </p>
             </div>
             <div>
-              <h1>JOHN DUCKETT</h1>
+              <h1>MDN web Documentations</h1>
               <p>
-                HTML & CSS Design and build websites
+                Quality_values
                 <br />
-                <a
-                  href="http://www.wufai.edu.tw/%E7%B6%B2%E9%A0%81%E6%8A%80%E8%A1%93%E4%B8%AD%E5%BF%83/datasheet/HTML%20and%20CSS%20design%20and%20build%20websites.pdf
-               "
-                >
-                  http://www.wufai.edu.tw/%E7%B6%B2%E9%A0%81%E6%8A%80%E8%A1%93%E4%B8%AD%E5%BF%83/datasheet/HTML%20and%20CSS%20design%20and%20build%20websites.pdf
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Quality_values">
+                  https://developer.mozilla.org/en-US/docs/Glossary/Quality_values
                 </a>
               </p>
             </div>
@@ -82,13 +80,12 @@ class External_links extends Component {
               </p>
             </div>
             <div>
-              <h1>O'REILLY</h1>
+              <h1>CHRIS COYIER</h1>
               <p>
-                Microservices for Java Developers
+                HOW TO STOP USING 'CONSOLE.LOG' AND START USING YOUR BROWSWER'S
+                DEGUBBER
                 <br />
-                <a href="https://www.oreilly.com/library/view/microservices-for-java/9781492042228/">
-                  https://www.oreilly.com/library/view/microservices-for-java/9781492042228/
-                </a>
+                <a href="https://css-tricks.com/">https://css-tricks.com/</a>
               </p>
             </div>
           </div>

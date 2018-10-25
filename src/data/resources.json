@@ -1,34 +1,75 @@
-{ "resources" :
-  [
+{
+  "resources": [
     {
-      "title"    : "Comment Only What the Code Cannot Say",
-      "author"   : "Kevlin Henney",
-      "category" : "css",
-      "slug"     : "comment"
+      "title": "HOW TO STOP USING 'CONSOLE.LOG' AND START USING YOUR BROWSWER'S DEGUBBER",
+      "author": "CHRIS COYIER",
+      "category": "javascript",
+      "slug": "javascript_debugging",
+      "content": [
+        "JAVASCRIPT DEBUGGING",
+
+        "Whenever I see someone really effectively debug JavaScript in the browser, they use the DevTools tooling to do it. Setting breakpoints and hopping over them and such.",
+        "That, as opposed to sprinkling condsole log  statements all around your code.",
+
+        "Parag Zaveri wrote about the transition and it has clearly resonated with lots of folks! (7.5k claps on Medium as I write).",
+
+        "I know I have hangups about it... Part of debugging is not just inspecting code once as-is; it's inspecting stuff, making changes and then",
+        "continuing to debug. If I spend a bunch of time setting up breakpoints, will they still be there after I've changed my code and refreshed?",
+        " Answer: DevTools appears to do a pretty good job with that.Looking at the console to see some output is one thing, but mucking about in the Sources",
+        " panel is another. My code there might be transpiled, combined, and not quite look like my authored code, making things harder to find. Plus it's a bit",
+        "cramped in there, visually.But yet! It's so powerful. Setting a breakpoint (just by clicking a line number) means that I don't have to litter my own code",
+        " with extra junk, nor do I have to choose what to log. Every variable in local and global scope is available for me to look at that breakpoint. I learned in",
+        "Parag's article that you might not even need to manually set breakpoints. You can, for example, have it break whenever a click (or other) event fires. Plus",
+        "you can type in variable names you specifically want to watch for, so you don't have to dig around looking for them. I'll be trying to use the proper DevTools",
+        "for debugging more often and seeing how it goes."
+      ]
     },
     {
-      "title"    : "Improve Code by Removing It",
-      "author"   : "Pete Godliffe",
-      "category" : "javascript",
-      "slug"     : "removing"
+      "title": "GETTING STARTED WITH HTML",
+      "author": "HTML Dog",
+      "category": "html",
+      "slug": "Getting_started_with_HTML",
+      "content": [
+        "Most of the stuff on the web is no different than the stuff on your computer — it’s just a whole load ",
+        "of files sorted into a whole load of directories.  HTML files are nothing more than simple text files",
+        "so to start writing in HTML, you need nothing more than a simple text editor.Notepad is a common text editor ",
+        "on Windows-based computers (usually found under the Programs > Accessories menu) and Mac",
+        "OSX computers come bundled with TextEdit but any program that lets you fiddle with text will do."
+      ]
+    },
+
+    {
+      "title": "JAVASCRIPT",
+      "author": "MDN Web Documentations",
+      "category": "javascript",
+      "slug": "Javascript",
+      "content": [
+        "JAVASCRIPT",
+        "(JS) is a lightweight, interpreted or JIT compiled programming language with first-class JavaScript",
+        "functions. Most well-known as the scripting language for Web pages, many non-browser environments also",
+        "use it, such as node.js and Apache CouchDB. JS is a prototype-based, multi-paradigm, dynamic scripting",
+        "language, supporting object-oriented,imperative, and declarative (e.g. functional programming) styles.",
+        "Read more about JavaScript.The standard for JavaScript is ECMAScript. As of 2012, all modern browsers ",
+        "fully support ECMAScript 5.1.Older browsers support at least ECMAScript 3. On June 17, 2015,ECMA International",
+        "published the sixth major version of ECMAScript, ECMAScript 2015. Since then, ECMAScript standards are on yearly",
+        " release cycles. This documentation refers to the latest draft version, which is currently ECMAScript 2019.",
+        "Do not confuse JavaScript with the Java programming language. Both Java and JavaScript are trademarks or",
+        "registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different",
+        "syntax, semantics, and uses"
+      ]
     },
     {
-      "title"    : "The Golden Rule of API Design",
-      "author"   : "Michael Feathers",
-      "category" : "quality",
-      "slug"     : "golden-rule"
-    },
-    {
-      "title"    : "Some bogus article",
-      "author"   : "Lucia Serrano",
-      "category" : "javascript",
-      "slug"     : "bogus"
-    },
-    {
-      "title"    : "This one is actually good",
-      "author"   : "Bob Ino",
-      "category" : "html",
-      "slug"     : "bobberino"
+      "title": "QUALITY VALUES",
+      "author": "MDN Web docs",
+      "category": "quality",
+      "slug": "Quality_Values",
+      "content": [
+        "QUALITY VALUES",
+        "Quality values, or q-values and q-factors, are used to describe the order of priority of values in a ",
+        "comma-separated list. It is a special syntax allowed in some HTTP headers and in HTML. The importance of a",
+        "value is marked by the suffix ';q=' immediately followed by a value between 0 and 1 included, with up to three",
+        "decimal digits, the highest value denoting the highest priority. When not present, the default value is 1."
+      ]
     }
   ]
 }

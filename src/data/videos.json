@@ -5,60 +5,42 @@
       "author"   : "Kevlin Henney",
       "category" : "css",
       "slug"     : "bogus",
-      "content"  : ["this is the first paragraph",
-                    "this is the second paragraph",
-                    "a third paragraph",
-                    "et cetera" ]
+      "url"     : "https://www.youtube.com/embed/PaUmfUVezuA"
     },
     {
       "title"    : "Improve Code by Removing It",
       "author"   : "Pete Godliffe",
       "category" : "javascript",
       "slug"     : "bogus",
-      "content"  : ["this is the first paragraph",
-                    "this is the second paragraph",
-                    "a third paragraph",
-                    "et cetera" ]
+      "url"     : "https://www.youtube.com/embed/PaUmfUVezuA"
     },
     {
       "title"    : "The Golden Rule of API Design",
       "author"   : "Michael Feathers",
       "category" : "quality",
       "slug"     : "bogus",
-      "content"  : ["this is the first paragraph",
-                    "this is the second paragraph",
-                    "a third paragraph",
-                    "et cetera" ]
+      "url"     : "https://www.youtube.com/embed/PaUmfUVezuA"
     },
     {
       "title"    : "Some bogus article",
       "author"   : "Lucia Serrano",
       "category" : "javascript",
       "slug"     : "bogus",
-      "content"  : ["this is the first paragraph",
-                    "this is the second paragraph",
-                    "a third paragraph",
-                    "et cetera" ]
+      "url"     : "https://www.youtube.com/embed/PaUmfUVezuA"
     },
     {
       "title"    : "This one is actually good",
       "author"   : "Bob Ino",
       "category" : "html",
       "slug"     : "bogus",
-      "content"  : ["this is the first paragraph",
-                    "this is the second paragraph",
-                    "a third paragraph",
-                    "et cetera" ]
+      "url"     : "https://www.youtube.com/embed/PaUmfUVezuA"
     },
     {
       "title"    : "Add the title here",
       "author"   : "Mister Author",
       "category" : "css",
       "slug"     : "bogus",
-      "content"  : ["this is the first paragraph",
-                    "this is the second paragraph",
-                    "a third paragraph",
-                    "et cetera" ]
+      "url"     : "https://www.youtube.com/embed/PaUmfUVezuA"
     }
   ]
 }

@@ -16,7 +16,7 @@ class LearningResource extends Component {
         </ul>
         <p class="learning-resource__category">{thisVideo.category }</p>
         <h1>{ thisVideo.title }</h1>
-        <iframe class="embedded-video-tutorial" src="https://www.youtube.com/embed/PaUmfUVezuA" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+        <iframe class="embedded-video-tutorial" src={thisVideo.url} frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
         <Comments />
       </main>
     );

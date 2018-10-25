@@ -42,7 +42,7 @@ class Blog extends Component {
           postTitle="Profile Page and External Links"
           paragraphs={[
             "I have Created my  profile page and have also added the page content, styled to suit every screen size . i have also created a responsive layout for the external links page",
-            "Lucia has now completed the individual pages for Learning resources, she is now working on the Video resources and Learning resources page "
+            "Lucia has now created the individual pages for Learning resources, she is now working on the Video resources and Learning resources page Content "
           ]}
         />
       </main>

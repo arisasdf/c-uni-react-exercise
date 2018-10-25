@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* ===============
-   HEADER COMPONENT 
+   HEADER COMPONENT
    =============== */
 ul {
   margin-top: 0;
@@ -18,7 +18,9 @@ header {
   background-color: #0a3170;
   margin: 0;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 nav {

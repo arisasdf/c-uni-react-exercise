@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* ===============
-   ABOUT US PAGE 
+   ABOUT US PAGE
    =============== */
 
 .About_us_Profiles {
@@ -40,7 +40,7 @@
 
   /*image adopted from https://www.pexels.com/photo/macbook-laptop-smartphone-apple-7358/*/
 
-  background-image: url(/About_banner.jpg);
+  background-image:  url(/img/about-hero.png);
   margin-bottom: 20px;
   background-repeat: no-repeat;
 }

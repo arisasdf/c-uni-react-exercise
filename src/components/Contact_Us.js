@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Contact_Us extends Component {
   render() {
     return (
-      <section className="form_section">
+      <section className="contact_form_section">
         <div class="container">
           <form>
             <p>Please fill in the form below</p>

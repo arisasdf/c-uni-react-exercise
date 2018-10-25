@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HomeSection from './HomeSection';
 import resourceJson from '../data/resources';
+import videoJson from '../data/videos';
 
 
 class Home extends Component {
@@ -15,6 +16,9 @@ class Home extends Component {
 				<HomeSection title="Learning Resources"
 					section="learning"
 					items={resourceJson.resources.slice(0, 3)} />
+				<HomeSection title="Video Tutorials"
+					section="video"
+					items={videoJson.resources.slice(0, 3)} />
 			</main>
     );
   }

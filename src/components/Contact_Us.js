@@ -8,18 +8,9 @@ class Contact_Us extends Component {
         <div class="container">
           <form>
             <p>Please fill in the form below</p>
+
             <div>
-              <label>First Name</label>
-              <input
-                type="text"
-                id="firstName"
-                required
-                name="firstName"
-                placeholder="Please enter your firstname"
-              />
-            </div>
-            <div>
-              <label>Last Name</label>
+              <label>Enter Name</label>
               <input
                 type="text"
                 id="lastName"
@@ -29,7 +20,7 @@ class Contact_Us extends Component {
               />
             </div>
             <div>
-              <label>Email Address</label>
+              <label>Enter Email</label>
               <input
                 type="email"
                 id="email"

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Comments from './Comments';
 import resourceJson from '../data/resources';
 
 class LearningResource extends Component {
@@ -19,6 +20,7 @@ class LearningResource extends Component {
         <h2>by { thisResource.author }</h2>
         {paragraphs}
         <cite><a href="#">Source</a></cite>
+        <Comments />
       </main>
     );
   }

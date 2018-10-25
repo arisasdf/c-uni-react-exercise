@@ -21,21 +21,21 @@ class RequestForm extends Component {
 	}
 
 	handleSubmit(e) {
-		let errorMsg = '',
-			email = this.state.email,
-			description = this.state.description;
-		  /*emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;*/
-		// Email regular expression taken from https://emailregex.com/
+		let email = this.state.email,
+			description = this.state.description,
+		  emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		  // Email regular expression taken from https://emailregex.com/
 
 		e.preventDefault();
 
 		if (email.length === 0) {
 			alert("Please enter an email so we can get in touch.");
 			return;
-		} // else if (!emailRegex.test(email)) {
-
-			// errorMsg += "That doesn't really look like an email address."
-		// }
+		}
+		if (!emailRegex.test(email)) {
+			alert("That doesn't really look like an email address.");
+			return;
+		}
 		if (this.state.category.length === 0) {
 			alert("Please choose a category for your suggested topic.");
 			return;

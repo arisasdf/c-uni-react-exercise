@@ -36,3 +36,50 @@ Single Resource Page
 	text-align: justify;
 	margin: 1em 0;
 }
+
+/* ----------
+Comments Form
+---------- */
+.comments {
+	margin-top: 2em;
+	padding: 2em 0;
+	border-top: 1px solid silver;
+}
+.comments__single--author {
+	font-weight: 600;
+}
+.comments h3 {
+	font-size: 1.5em;
+	margin-top:	2em;
+}
+
+.comments label,
+.comments input,
+.comments textarea,
+.comments button {
+	display: block;
+}
+.comments label {
+	margin: .7em 0 .2em;
+	font-weight: 600;
+}
+.comments textarea {
+	resize: none;
+	height: 5em;
+}
+.comments input,
+.comments textarea {
+	width: 20em;
+	font-size: 1em;
+	padding: .2em .4em;
+	border: 1px solid #00c0c0;
+}
+
+.comments button {
+	margin-top: .6em;
+	background-color: gainsboro;
+	border: none;
+	border-radius: 2px;
+	padding: .2em .4em;
+	font-size: 1em;
+}

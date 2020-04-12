@@ -6,7 +6,7 @@ class Profile_Eme extends Component {
       <div>
         <div className="flex-container Profile_page2">
           <div className="Profile_page2_left">
-            <img src={"/menu.png"} alt="my pix" width="180" height="180" />
+            <img src="/img/eme-photo.png" alt="my pix" width="180" height="180" />
             <h1>EFFIOM</h1>
             <i>Eme Umoh</i>
 

@@ -24,28 +24,32 @@ class ProfileLucia extends Component {
 				<section>
 					<h2>My Favourites</h2>
 
-					<table>
-						<thead>
-							<tr>
-								<th>Programming Languages</th>
-								<th>Reason</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Ruby</td>
-								<td>Straightforward, easy to use and read, extensible.</td>
-							</tr>
-							<tr>
-								<td>Javascript</td>
-								<td>Powerful and satisfying... if used right.</td>
-							</tr>
-							<tr>
-								<td>Scheme (RIP)</td>
-								<td>My first love. Fun to use. A bit impractical.</td>
-							</tr>
-						</tbody>
-					</table>
+							<table>
+			<thead>
+				<tr>
+					<th>D&D Classes</th>
+					<th>Reason</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Evocation Wizard</td>
+					<td>Burns stuff, makes explosions.</td>
+				</tr>
+				<tr>
+					<td>Bard of Lore</td>
+					<td>Musical but also magical!</td>
+				</tr>
+				<tr>
+					<td>Paladin of Vengeance</td>
+					<td>A thirst for blood... and for justice.</td>
+				</tr>
+				<tr>
+					<td>Swashbuckler Rogue</td>
+					<td>Literally a pirate. Yarr.</td>
+				</tr>
+			</tbody>
+		</table>
 					<table>
 						<thead>
 							<tr>
